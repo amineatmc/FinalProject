@@ -13,5 +13,9 @@ namespace Business.Constants
         public static string ProductNameInvalid = "Ürün ismi geçersiz.";
         public static string MaintenanceTime="Sistem bakımda.";
         public static string ProductsListed="Ürünler Listelendi.";
+
+        public static string UsersError = "Kuulanıcı Adı veya Şifre Hatalı !";
+        public static string UsersSuccesLogin= "Giriş Yapıldı.";
+
     }
 }
