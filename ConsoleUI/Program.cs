@@ -28,7 +28,7 @@ class Program
         {
             foreach (var item in result.Data)
             {
-                Console.WriteLine(item.ProductName+ " / " + item.CategoryName);
+                Console.WriteLine(item.ProductName+ " / " + item.CategoryName+"/"+item.UnitPrice);
             }
         }
         else
